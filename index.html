@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="animate.css" />
     <style media="screen">
     img{
       border-radius: 30px;
@@ -15,40 +16,43 @@
     }
     img:hover{filter:grayscale(0%);opacity: 1}
     h2{
-      color: #F16851;
+      color: Red;
       font-size: 40px;
       align: center;
-    }
-    p{
-      color:white;
-      font-size: 15px;
-      font-weight: bold;
-      margin: auto;
     }
     body{
       background-image: url("/background.png");
       background-position: center;
       background-repeat: no-repeat;
     }
-    div.cont{
-      background-color: rgba(255, 255, 255, 0.3);
+    .cont{
+      background-color: rgba(0, 0 ,0, 0.5);
       height: 100px;
       width: 500px;
       border-radius: 10px;
       margin:10px  auto;
     }
+    .txt{
+      position: absolute;
+      color:white;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+      margin: 20px 0;
+      width: 500px;
+    }
     </style>
   </head>
   <body align="center">
-    <h2>貓圖片</h2>
+    <h2 class="animated bounceInLeft">貓圖片</h2>
     <img id="img" src="http://lorempixel.com/500/300/cats" width="500" height="300" />
     <div class="cont">
-    <p valign="center">
+      <div class="txt animated shake">
 地址：83347高雄市鳥松區澄清路840號<br>
 電話：+886-7-7358800  EXT.3702,3703<br>
 傳真：+886-7-7327047<br>
 Mail: csie@gcloud.csu.edu.tw
-    </p>
+</div>
   </div>
   </body>
   <script src="123.js"></script>

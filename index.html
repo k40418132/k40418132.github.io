@@ -1,56 +1,103 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="animate.css" />
-    <style media="screen">
-    img{
-      border-radius: 30px;
-      border: 3px #F16851 solid;
-      border-style: dotted;
-      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-      transition: 1s;
-    }
-    h2{
-      color: Red;
-      font-size: 40px;
-      align: center;
-    }
-    body{
-      background-image: url("/background.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    .cont{
-      background-color: rgba(0, 0 ,0, 0.5);
-      height: 100px;
-      width: 500px;
-      border-radius: 10px;
-      margin:10px  auto;
-    }
-    .txt{
-      position: absolute;
-      color:white;
-      font-size: 15px;
-      font-weight: bold;
-      text-align: center;
-      margin: 20px 0;
-      width: 500px;
-    }
-    </style>
-  </head>
-  <body align="center">
-    <h2 class="animated bounceInLeft">貓圖片</h2>
-    <img id="img" src="http://lorempixel.com/500/300/cats" width="500" height="300" />
-    <div class="cont">
-      <div class="txt animated shake">
-地址：83347高雄市鳥松區澄清路840號<br>
-電話：+886-7-7358800  EXT.3702,3703<br>
-傳真：+886-7-7327047<br>
-Mail: csie@gcloud.csu.edu.tw
-</div>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>40418132的個人網頁</title>
+</head>
+
+<body>
+    <section id="content_box">
+        <section id="home_box">
+            <div id="avatar">
+                <img src="staff1.jpg">
+            </div>
+        </section>
+        <section id="profileS">
+            <div class="account">
+                <p id="pro_name">劉嘉勛</p>
+                <p id="pro_id">Jia-Xun Liu</p>
+            </div>
+            <div id="welcome" class="info">
+                歡迎來到我的小地方，請把自己當自己家，有什麼需要請連繫我。
+            </div>
+
+        </section>
+        <div id="navbar">
+            <ul>
+                <li onclick="slide(0)">自我介紹</li>
+                <li onclick="slide(1)">個人資料</li>
+            </ul>
+        </div>
+        <section id="article_box">
+            <ul id="article_ul">
+                <li id="introduce">
+                    My name is Jia Xun Liu,From Kaohsiung. I graduated from Soochow University and my major was in History. There are 5 people in my family. My father works in the trade company as a sales representative., and my mother is a house wife…. Because of coming
+                    to Taiwan to study, I developed an independent personality. In order to lighten my parents burden, I took several part-time job, like waitress, sales assistant, .From those working experience, I learned many great skills in dealing
+                    with people.
+                </li>
+                <li id="information">
+                    <div class="box">
+
+                        <div>
+                            <span>本名:</span>
+                            <span>劉嘉勛</span>
+                        </div>
+                        <div>
+                            <span>英名:</span>
+                            <span>Jia-Xun Liu</span>
+                        </div>
+                        <div>
+                            <span>手機:</span>
+                            <span>0970311810</span>
+                        </div>
+                        <div>
+                            <span>地址:</span>
+                            <span>高雄市</span>
+                        </div>
+                        <div>
+                            <span>生日:</span>
+                            <span>1997/5/24</span>
+                        </div>
+                        <div>
+                            <span>血型:</span>
+                            <span>A型</span>
+                        </div>
+                        <div>
+                            <span>車牌:</span>
+                            <span>716-THS</span>
+                        </div>
+                        <div>
+                            <span>信箱:</span>
+                            <span>view1234k@gmail.com</span>
+                        </div>
+                        <div>
+                            <span>興趣:</span>
+                            <span>打程式、打手槍<span>
+      </div>
+      <div>
+          <span>學歷:</span>
+                            <span>正修學校財團法人正修科技大學<span>
+      </div>
+      <div>
+          <span>公司:</span>
+                            <span>Pluto冥王星高端數位科技有限股份公司<span>
+      </div>
+      <div>
+          <span>職位:</span>
+                            <span>主任工程師<span>
+      </div>
+
+
   </div>
+</li>
+        </ul>
+      </section>
+    </section>
+
+
   </body>
-  <script src="123.js"></script>
 </html>
